@@ -100,16 +100,20 @@ BREAKING CHANGE: completely new homepage structure
 
 ### Commit Types
 
-- **feat**: New features or functionality (→ minor version bump)
-- **fix**: Bug fixes (→ patch version bump)
-- **docs**: Documentation changes (→ patch version bump)
-- **style**: Styling/design changes (→ patch version bump)
-- **refactor**: Code refactoring (→ patch version bump)
-- **perf**: Performance improvements (→ patch version bump)
-- **content**: New blog posts or content updates (→ patch version bump)
-- **theme**: Theme-related changes (→ patch version bump)
-- **config**: Configuration changes (→ patch version bump)
-- **chore**: Maintenance tasks (→ no version bump)
+**Minor version bump (0.x.0 → 0.y.0):**
+- **feat**: New features or functionality
+
+**Patch version bump (0.0.x → 0.0.y):**
+- **fix**: Bug fixes
+- **perf**: Performance improvements
+- **revert**: Revert previous changes
+- **build**: Build system or dependency changes
+- **chore**: Maintenance tasks
+- **ci**: CI/CD configuration changes
+- **docs**: Documentation changes
+- **refactor**: Code refactoring without behavior changes
+- **style**: Code style changes (formatting, whitespace)
+- **test**: Adding or updating tests
 
 ### Breaking Changes
 
