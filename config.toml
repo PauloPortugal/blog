@@ -1,0 +1,4 @@
+baseURL = "https://pauloportugal.github.io"
+languageCode = "en-gb"
+title = "Corner for personal thoughts and projects"
+theme = "chirpy-starter"
