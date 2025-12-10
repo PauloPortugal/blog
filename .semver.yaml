@@ -1,56 +1,12 @@
-# go-semver-release configuration
-# https://github.com/s0ders/go-semver-release
-
-# Release branch (where releases are created from)
-release-branch: main
-
-# Release tag prefix (e.g., v1.0.0)
-release-tag-prefix: v
-
-# Changelog configuration
-changelog:
-  # Generate changelog file
-  enabled: true
-
-  # Changelog file path
-  path: CHANGELOG.md
-
-  # Changelog sections
-  sections:
-    - type: feat
-      section: Features
-    - type: fix
-      section: Bug Fixes
-    - type: docs
-      section: Documentation
-    - type: style
-      section: Styling
-    - type: refactor
-      section: Code Refactoring
-    - type: perf
-      section: Performance Improvements
-    - type: content
-      section: Content Updates
-    - type: theme
-      section: Theme Changes
-
-# Commit message format validation
-commit-format: conventional
-
-# Custom commit types for blog-specific changes
-commit-types:
-  - feat      # New features (e.g., new functionality, new sections)
-  - fix       # Bug fixes
-  - docs      # Documentation changes
-  - style     # Styling/design changes (not code style)
-  - refactor  # Code refactoring
-  - perf      # Performance improvements
-  - content   # New blog posts or content updates
-  - theme     # Theme-related changes
-  - config    # Configuration changes
-  - chore     # Maintenance tasks
-
-# Version bumping rules
-# Breaking changes (!) or BREAKING CHANGE footer -> major version bump
-# feat: -> minor version bump
-# fix:, docs:, style:, etc. -> patch version bump
+remote: true
+remote-name: origin
+tag-prefix: v
+branches:
+  - name: main
+rules:
+  minor:
+    - feat
+  patch:
+    - fix
+    - perf
+    - revert
