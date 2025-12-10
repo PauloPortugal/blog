@@ -1,0 +1,15 @@
+[en]
+  languageName = "English"
+  languageCode = "en"
+  weight = 2
+  title = "Paulo Monteiro"
+  [en.params]
+    tagline = "A Web corner for thoughts and projects"
+
+[pt-PT]
+  languageName = "Português"
+  languageCode = "pt-PT"
+  weight = 1
+  title = "Paulo Monteiro"
+  [pt-PT.params]
+    tagline = "Um canto da Web para pensamentos e projetos"

@@ -4,7 +4,7 @@ title = "Paulo Monteiro"
 enableGitInfo = false
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
-hasCJKLanguage = true
+hasCJKLanguage = false
 
 # Pagination settings
 [pagination]
