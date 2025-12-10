@@ -147,10 +147,10 @@ To test the release process locally:
 
 ```bash
 # Install go-semver-release
-go install github.com/s0ders/go-semver-release/cmd/semver-release@latest
+go install github.com/s0ders/go-semver-release@latest
 
 # Run locally (dry-run)
-semver-release --dry-run
+go-semver-release --dry-run
 
 # View what version would be released
 git log --oneline $(git describe --tags --abbrev=0)..HEAD
