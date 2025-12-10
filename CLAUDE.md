@@ -146,14 +146,15 @@ When you push to the `main` branch:
 To test the release process locally:
 
 ```bash
-# Install go-semver-release
-go install github.com/s0ders/go-semver-release@latest
+# Download go-semver-release binary
+curl -SL https://github.com/s0ders/go-semver-release/releases/latest/download/go-semver-release-linux-amd64 -o ./go-semver-release
+chmod +x ./go-semver-release
 
 # Run locally (dry-run)
-go-semver-release --dry-run
+./go-semver-release release https://github.com/PauloPortugal/blog.git --config .semver.yaml --dry-run
 
-# View what version would be released
-git log --oneline $(git describe --tags --abbrev=0)..HEAD
+# View commits since last release
+git log --oneline $(git describe --tags --abbrev=0 2>/dev/null || echo "HEAD")..HEAD
 ```
 
 ## Architecture
