@@ -59,6 +59,103 @@ git commit -m "Update site source"
 git push
 ```
 
+## Conventional Commits & Automated Releases
+
+This repository uses **Conventional Commits** format to automatically generate releases, version numbers, and changelogs via GitHub Actions.
+
+### Commit Message Format
+
+Follow this format for all commits:
+
+```
+<type>(<scope>): <subject>
+
+[optional body]
+
+[optional footer]
+```
+
+**Examples:**
+```bash
+# New blog post (patch bump)
+content: add post about Hugo modules
+
+# New feature (minor bump)
+feat: add dark mode toggle to sidebar
+
+# Bug fix (patch bump)
+fix: correct broken link in about page
+
+# Theme change (patch bump)
+theme: update Chirpy theme to v1.1.0
+
+# Breaking change (major bump)
+feat!: migrate from Jekyll to Hugo
+
+# Or with footer
+feat: redesign homepage layout
+
+BREAKING CHANGE: completely new homepage structure
+```
+
+### Commit Types
+
+- **feat**: New features or functionality (→ minor version bump)
+- **fix**: Bug fixes (→ patch version bump)
+- **docs**: Documentation changes (→ patch version bump)
+- **style**: Styling/design changes (→ patch version bump)
+- **refactor**: Code refactoring (→ patch version bump)
+- **perf**: Performance improvements (→ patch version bump)
+- **content**: New blog posts or content updates (→ patch version bump)
+- **theme**: Theme-related changes (→ patch version bump)
+- **config**: Configuration changes (→ patch version bump)
+- **chore**: Maintenance tasks (→ no version bump)
+
+### Breaking Changes
+
+Mark breaking changes with `!` or `BREAKING CHANGE:` footer (→ major version bump):
+
+```bash
+feat!: redesign entire site layout
+theme!: migrate to new theme with incompatible config
+
+# Or
+feat: change content directory structure
+
+BREAKING CHANGE: All posts must be moved from posts/ to post/ directory
+```
+
+### Automated Release Process
+
+When you push to the `main` branch:
+
+1. GitHub Actions runs the semantic release workflow
+2. Analyzes commit messages since the last release
+3. Determines the next version number based on commit types
+4. Generates/updates CHANGELOG.md
+5. Creates a Git tag (e.g., `v1.2.3`)
+6. Creates a GitHub Release with release notes
+
+**Configuration files:**
+- `.github/workflows/release.yml` - GitHub Actions workflow
+- `.semver.yaml` - go-semver-release configuration
+- `CHANGELOG.md` - Auto-generated changelog
+
+### Manual Release Testing
+
+To test the release process locally:
+
+```bash
+# Install go-semver-release
+go install github.com/s0ders/go-semver-release/cmd/semver-release@latest
+
+# Run locally (dry-run)
+semver-release --dry-run
+
+# View what version would be released
+git log --oneline $(git describe --tags --abbrev=0)..HEAD
+```
+
 ## Architecture
 
 ### Hugo Module System
