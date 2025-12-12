@@ -78,7 +78,7 @@ Follow this format for all commits:
 **Examples:**
 ```bash
 # New blog post (patch bump)
-content: add post about Hugo modules
+docs: add post about Hugo modules
 
 # New feature (minor bump)
 feat: add dark mode toggle to sidebar
@@ -86,8 +86,8 @@ feat: add dark mode toggle to sidebar
 # Bug fix (patch bump)
 fix: correct broken link in about page
 
-# Theme change (patch bump)
-theme: update Chirpy theme to v1.1.0
+# Theme or style change (patch bump)
+style: update Chirpy theme to v1.1.0
 
 # Breaking change (major bump)
 feat!: migrate from Jekyll to Hugo

@@ -32,16 +32,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Run go-semver-release
+          # Run go-semver-release (this creates both the tag and GitHub release)
           ./go-semver-release release https://github.com/PauloPortugal/blog.git --config .semver.yaml
-
-      - name: Create GitHub Release with Notes
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          LATEST_TAG=$(git describe --tags --abbrev=0)
-          echo "Creating GitHub release for tag: $LATEST_TAG"
-          gh release create "$LATEST_TAG" --generate-notes --title "Release $LATEST_TAG"
 
       - name: Output Release Info
         run: |
