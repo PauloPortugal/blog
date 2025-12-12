@@ -1,6 +1,6 @@
 ---
 title: Automating Manjaro Setup with Ansible
-date: 2025-12-12 00:44:55 +0000
+date: 2025-12-11 22:44:55 +0000
 draft: false
 description: >-
   An Ansible-based automation framework that streamlines post-installation configuration of Manjaro Linux.
