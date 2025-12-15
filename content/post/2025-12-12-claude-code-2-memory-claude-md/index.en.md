@@ -79,22 +79,14 @@ You'll see options to save to:
 
 ### Memory Types Explained
 
-**Project Memory** (`CLAUDE.md`):
-- Tracked by version control
-- Shared with all developers on the project
-- Contains project-specific guidance (folder structure, naming conventions, frameworks)
+| Memory Type | File Path | Scope | Version Control | Use Case |
+|-------------|-----------|-------|-----------------|----------|
+| **Project** | `CLAUDE.md` or `./.claude/CLAUDE.md` | Project-wide | ✓ Tracked & shared | Project-specific guidance: folder structure, naming conventions, frameworks |
+| **Local Project** | `CLAUDE.local.md` | Project-specific | ✗ Not tracked | Personal preferences for this project: your tooling, workflow preferences |
+| **Global User** | `~/.claude/CLAUDE.md` | All projects | ✗ Not tracked | Personal guidance across all projects: coding style, global tools |
 
-**Local Project Memory** (`CLAUDE.local.md`):
-- Personal preferences for this project only
-- Not pushed to repository
-- Your own tooling and workflow preferences
-- *Note: Being deprecated in favor of importing untracked files*
 
-**Global Memory** (`~/.config/claude/CLAUDE.md`):
-- Personal guidance across ALL projects
-- Your coding style preferences
-- Tools you use globally
-
+Visit [Claude Code Memory Types](https://code.claude.com/docs/en/memory#determine-memory-type) for a comprehensive list of all supported memory types.
 ## Accessing Memory Files
 
 Use the `/memory` command to open and edit any memory file:
