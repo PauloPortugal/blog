@@ -10,18 +10,46 @@ menu:
     pre: fa-info-circle
 ---
 
-[Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) is a blog theme originally based on [Jekyll](https://jekyllrb.com/). Due to Jekyll's design limitations, it does not natively support internationalization (i18n) and requires third-party plugins for i18n functionality. To enable i18n support for Chirpy without the hassle of relying on third-party plugins, the [hugo-theme-chirpy](https://github.com/geekifan/hugo-theme-chirpy) project migrated the Chirpy theme to [Hugo](https://gohugo.io/) with minimal adaptations. All features of Chirpy are available in hugo-theme-chirpy (though some functionalities may operate differently within the Hugo framework).
+## About Me
 
-Follow the posts in the demo site to quickly set up a free personal blog!
-## Features
+Hi, I'm Paulo Monteiro, a software engineer based in Leeds, England
 
-- **Dark Mode**: Enhanced readability in low-light environments.
-- **Multilingual UI:** Easily switch between different languages.
-- **Efficient Post Organization:** Use hierarchical categories, trending tags, recommended reading, and search functionalities.
-- **Optimized Layout:** Includes TOC, syntax highlighting, prompts, and more.
-- **Rich Writing Extensions:** Support for mathematical formulas, charts, flowcharts, and embedded media.
-- **Multiple Comment Systems:** Choose from various commenting options.
-- **Web Analysis Tools:** Integrated with multiple analytics tools.
-- **Modern Web Technologies:** Built for SEO and web performance.
-- **RSS Feed Support:** Keep your readers updated with RSS feeds.
+I hold an MSc in Big Data and Machine Learning from Birkbeck, University of London, where I specialized in statistical learning, cloud computing, and data warehousing. My coursework included building systems with R, Hadoop MapReduce on AWS, and developing recurrent neural networks for medical image analysis.
 
+Lately I am having a blast with Claude Code, experimenting with MCP servers and AI agents, including helping me create and maintain this blog.
+
+### Professional Focus
+
+I work with backend systems, infrastructure automation, and distributed architectures. My technical interests span:
+
+- **Backend Development**: Java (+18 years experience), Go (+2 years experience), Node.js (+3 years experience) and Golang
+- **Data Engineering**: Big Data analytics, machine learning, data warehousing
+- **Infrastructure**: Ansible, Terraform, Linux provisioning, Cloud computing
+- **Databases**: MongoDB, NoSQL solutions, PostgreSQL, Oracle and MySQL
+- **APIs & Frameworks**: Gin Gonic, Dropwizard, REST architecture
+- **AI Tools**: Claude Code
+
+### Open Source
+
+I maintain several open source projects on [GitHub](https://github.com/PauloPortugal), including:
+
+- **manjaro-playbook**: Manjaro/Arch Linux Ansible provision playbook
+- **gin-gonic-rest-mongodb**: REST API implementations with Go and MongoDB
+- **dropwizard-guice-mongodb**: NoSQL JPA solutions with Dropwizard
+
+
+### Hobbies
+
+I'm passionate about rugby and support the [Lobos](https://fpr.pt/) 🇵🇹🐺 (Portuguese National team), [CDUP](https://www.cdup.pt/),  [Springboks](https://springboks.rugby/) 🇿🇦, and [Vodacom Bulls](https://bullsrugby.co.za/).
+As a sports enthusiast, I am also an [FC Porto](https://www.fcporto.pt/), [NY Knicks](https://nba.com/knicks), [NY Mets](https://www.mlb.com/mets) and [Yorkshire CCC](https://yorkshireccc.com/) cricket fan.
+
+As far as music tastes go, I love jazz, blues and thrash metal fan as well as sci-fi dystopian film soundtracks and I love playing guitar on my free time.
+
+I grew up watching [Spaghetti Westerns and even did a presentation about it](https://prezi.com/view/Te7Gyx4CUjJUi08NE31R/?referral_token=ASl0RFlnB3FN) and in my adult years the space exploration and dystopian movies have caught my interest.
+
+I am also an avid book reader and an [amateur chess player](https://www.chess.com/member/pmonteiro).
+
+
+### Languages
+
+I speak Portuguese (native), English (fluent), and Spanish (conversational).
