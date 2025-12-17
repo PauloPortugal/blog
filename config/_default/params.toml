@@ -23,9 +23,10 @@ author = "Paulo Monteiro"
   icon = "fab fa-twitter"
 
 [[social.links]]
-  type = "email"
-  id = "your.email@example.com"
-  icon = "fas fa-envelope"
+  type = "bluesky"
+  id = "paulo-monteiro.bsky.social"
+  url = "https://bsky.app/profile/paulo-monteiro.bsky.social"
+  icon = "fab fa-bluesky"
 
 [[social.links]]
   type = "rss"
