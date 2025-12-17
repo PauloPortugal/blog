@@ -10,5 +10,10 @@
       "Bash(rm:*)",
       "Write"
     ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh",
+    "padding": 0
   }
 }
