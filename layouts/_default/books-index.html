@@ -1,0 +1,62 @@
+{{ define "main" }}
+<div class="books-page">
+  <div class="container px-4">
+    <h1 class="mb-4">{{ .Title }}</h1>
+
+    {{ if .Content }}
+    <div class="books-intro mb-5">
+      {{ .Content }}
+    </div>
+    {{ end }}
+
+    <div class="reading-years">
+      {{ $bookPages := .Site.Taxonomies.categories.books }}
+      {{ if $bookPages }}
+      {{ range $bookPages.Pages.GroupByDate "2006" "desc" }}
+      <div class="year-section">
+        <h2 class="year-heading">{{ .Key }}</h2>
+
+        <div class="books-grid">
+          {{ range .Pages }}
+          <div class="book-card">
+            <a href="{{ .RelPermalink }}" class="book-card-link">
+              <h3 class="book-title">{{ .Title }}</h3>
+            </a>
+
+            <div class="book-authors">
+              by {{ delimit .Params.authors ", " }}
+            </div>
+
+            <div class="book-rating">
+              {{ range seq .Params.rating }}
+              <span class="star filled">★</span>
+              {{ end }}
+              {{ range seq (sub 10 .Params.rating) }}
+              <span class="star">★</span>
+              {{ end }}
+              <span class="rating-number">{{ .Params.rating }}/10</span>
+            </div>
+
+            <div class="book-review">
+              {{ .Content }}
+            </div>
+
+            {{ if .Params.tags }}
+            <div class="book-tags">
+              {{ range .Params.tags }}
+              <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="book-tag">{{ . }}</a>
+              {{ end }}
+            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+      {{ else }}
+      <p>No book reviews found yet.</p>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

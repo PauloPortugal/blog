@@ -1,0 +1,46 @@
+{{ define "main" }}
+<article class="book-review-page">
+  <div class="container px-4">
+    <header class="book-review-header">
+      <h1 class="book-review-title">{{ .Title }}</h1>
+      
+      <div class="book-review-meta">
+        <div class="book-authors">
+          by {{ delimit .Params.authors ", " }}
+        </div>
+        
+        <div class="book-rating">
+          {{ range seq .Params.rating }}
+          <span class="star filled">★</span>
+          {{ end }}
+          {{ range seq (sub 10 .Params.rating) }}
+          <span class="star">★</span>
+          {{ end }}
+          <span class="rating-number">{{ .Params.rating }}/10</span>
+        </div>
+
+        <div class="book-date">
+          Reviewed on {{ .Date.Format "January 2, 2006" }}
+        </div>
+      </div>
+    </header>
+
+    <div class="book-review-content">
+      {{ .Content }}
+    </div>
+
+    {{ if .Params.tags }}
+    <div class="book-review-tags">
+      <strong>Tags:</strong>
+      {{ range .Params.tags }}
+      <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="book-tag">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="book-review-footer">
+      <a href="{{ "/books/" | relURL }}" class="back-to-books">← Back to Books</a>
+    </div>
+  </div>
+</article>
+{{ end }}

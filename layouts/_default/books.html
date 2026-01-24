@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="books-page">
+  <div class="container px-4">
+    <h1 class="mb-4">{{ .Title }}</h1>
+
+    {{ if .Content }}
+    <div class="books-intro mb-5">
+      {{ .Content }}
+    </div>
+    {{ end }}
+
+    <div class="reading-years">
+      {{ range .Params.reading_years }}
+      <div class="year-section">
+        <h2 class="year-heading">{{ .year }}</h2>
+
+        <div class="books-grid">
+          {{ range .books }}
+          <div class="book-card">
+            <h3 class="book-title">{{ .title }}</h3>
+
+            <div class="book-authors">
+              by {{ delimit .authors ", " }}
+            </div>
+
+            <div class="book-rating">
+              {{ range seq .rating }}
+              <span class="star filled">★</span>
+              {{ end }}
+              {{ range seq (sub 10 .rating) }}
+              <span class="star">★</span>
+              {{ end }}
+              <span class="rating-number">{{ .rating }}/10</span>
+            </div>
+
+            <div class="book-review">
+              {{ .review }}
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -32,10 +32,10 @@ hugo mod tidy
 ### Content Creation
 ```bash
 # Create new post (will use archetype template)
-hugo new post/YYYY-MM-DD-post-title/index.en.md
+hugo new post/YYYY-MM-DD-post-title/_index.en.md
 
 # Create new page
-hugo new about/index.en.md
+hugo new about/_index.en.md
 ```
 
 ### Deployment
