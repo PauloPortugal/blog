@@ -12,7 +12,7 @@ menu:
 
 ## About Me
 
-Hi, I'm Paulo Monteiro, a software engineer based in Leeds, England
+I am a software engineer based in Leeds, England
 
 I hold an MSc in Big Data and Machine Learning from Birkbeck, University of London, where I specialized in statistical learning, cloud computing, and data warehousing. My coursework included building systems with R, Hadoop MapReduce on AWS, and developing recurrent neural networks for medical image analysis.
 
@@ -43,7 +43,7 @@ I maintain several open source projects on [GitHub](https://github.com/PauloPort
 I'm passionate about rugby and support the [Lobos](https://fpr.pt/) 🇵🇹🐺 (Portuguese National team), [CDUP](https://www.cdup.pt/),  [Springboks](https://springboks.rugby/) 🇿🇦, and [Vodacom Bulls](https://bullsrugby.co.za/).
 As a sports enthusiast, I am also an [FC Porto](https://www.fcporto.pt/), [NY Knicks](https://nba.com/knicks), [NY Mets](https://www.mlb.com/mets) and [Yorkshire CCC](https://yorkshireccc.com/) cricket fan.
 
-As far as music tastes go, I love jazz, blues and thrash metal fan as well as sci-fi dystopian film soundtracks and I love playing guitar on my free time.
+As far as music tastes go, I love jazz, blues, punk/hardcore and thrash metal fan as well as sci-fi dystopian film soundtracks and I love playing guitar on my free time.
 
 I grew up watching [Spaghetti Westerns and even did a presentation about it](https://prezi.com/view/Te7Gyx4CUjJUi08NE31R/?referral_token=ASl0RFlnB3FN) and in my adult years the space exploration and dystopian movies have caught my interest.
 

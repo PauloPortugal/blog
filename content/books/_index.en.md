@@ -9,4 +9,4 @@ menu:
     pre: fa-book
 ---
 
-My personal reading log and book reviews. Each review includes ratings from 1 (disliked) to 10 (perfect) and is tagged for easy discovery.
+My personal reading log and book review including my personal ratings and tagged for easy discovery.
