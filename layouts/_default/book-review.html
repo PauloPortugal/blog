@@ -33,13 +33,13 @@
     <div class="book-review-tags">
       <strong>Tags:</strong>
       {{ range .Params.tags }}
-      <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="book-tag">{{ . }}</a>
+      <a href="{{ printf "/tags/%s" (. | urlize) | relLangURL }}" class="book-tag">{{ . }}</a>
       {{ end }}
     </div>
     {{ end }}
 
     <div class="book-review-footer">
-      <a href="{{ "/books/" | relURL }}" class="back-to-books">← Back to Books</a>
+      <a href="{{ "/books" | relLangURL }}" class="back-to-books">← Back to Books</a>
     </div>
   </div>
 </article>
