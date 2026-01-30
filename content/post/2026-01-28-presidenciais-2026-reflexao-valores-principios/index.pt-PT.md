@@ -71,10 +71,7 @@ Cada grupo de pessoas perseguidas, serve como um aviso para os restantes de que 
 Portugal está a assistir ao [preocupante ressurgimento da retórica fascista](https://sicnoticias.pt/pais/politica/2026-01-27-video-elementos-do-grupo-1143-alegam-que-deputado-do-chega-lhes-pediu-servico-de-guarda-costas-74e92bc4), 
 sobretudo através da crescente influência do partido de extrema-direita Chega. 
 Este desenvolvimento reflete [tendências mais amplas na Europa](https://patriots.eu/) e nos [EUA](https://sicnoticias.pt/mundo/2026-01-26-o-que-esta-por-detras-da-expansao-do-ice-e-da-revolta-nas-ruas-dos-estados-unidos--9a051632), 
-onde os sentimentos anti-imigração, e subsequente [violência policial justificada por André Ventura](https://sicnoticias.pt/pais/2024-10-24-video-andre-ventura-ha-momentos-em-que-e-preciso-disparar-a-matar-df073b2a) e o nacionalismo extremo ganham força. 
-
-Os recentes acontecimentos políticos evidenciam esta mudança e suscitam preocupações quanto às suas implicações para um 
-futuro onde as liberdades da sociedade em Portugal poderão estar em perigo.
+onde os sentimentos anti-imigração, e subsequente [violência policial justificada por André Ventura](https://sicnoticias.pt/pais/2024-10-24-video-andre-ventura-ha-momentos-em-que-e-preciso-disparar-a-matar-df073b2a) e o nacionalismo extremo ganham força.
 
 ### A normalização da Propaganda
 Nas recentes eleições parlamentares, o Chega conquistou 60 lugares na Assembleia da República, 
@@ -88,7 +85,7 @@ o uso recauchutado de [_"Deus, Pátria, Família e Trabalho"_](https://rr.pt/esp
 [_"ruídos de animais no parlamento"_](https://sicnoticias.pt/pais/2025-02-14-video-piadas-racistas-insultos-e-provocacoes-o-que-faz-e-diz-o-chega-quando-os-microfones-estao-desligados--aba843a1), 
 entre outras imbecilidades.
 
-Irónicamente, [25 dos 58 representantes eleitos estiveram envolvidos em controvérsias judiciais](https://cnnportugal.iol.pt/chega/deputados/dos-58-deputados-eleitos-pelo-chega-25-ja-se-cruzaram-com-a-justica-ou-estiveram-envolvidos-em-polemicas/20250520/6827832bd34ef72ee4461310), levantando questões sobre a sua própria prestação de contas e futura capacidade governativa. No entanto,
+Irónicamente, [25 dos 60 representantes eleitos estiveram envolvidos em controvérsias judiciais](https://cnnportugal.iol.pt/chega/deputados/dos-58-deputados-eleitos-pelo-chega-25-ja-se-cruzaram-com-a-justica-ou-estiveram-envolvidos-em-polemicas/20250520/6827832bd34ef72ee4461310), levantando questões sobre a sua própria prestação de contas e futura capacidade governativa. No entanto,
 tal como [os crentes do Terraplanismo](https://pt.wikipedia.org/wiki/Terraplanismo), os seus eleitores seguem inabalados 
 com a sua figura de estilo aguerrida disposta a discutir qualquer tema político como uma discussão de uma penalidade no último minuto de jogo e na contínua aposta numa linguagem de taberna e ideologia neo-fascista, como ficou 
 comprovado com a [associação do grupo extremista 1143 ao partido Chega](https://www.sabado.pt/portugal/detalhe/tres-militantes-do-chega-entre-os-detidos-do-grupo-extremista-liderado-por-mario-machado).
@@ -181,12 +178,13 @@ A inclusão de [Nelson Mandela](https://pt.wikipedia.org/wiki/Nelson_Mandela) ne
 Ele é o meu ídolo político e um justo vencedor do Prémio Nobel da Paz. Ele representa as minhas convicções e os valores que defendo para uma sociedade justa, pluralista, tolerante e liberal.
 
 Eu nasci na África do Sul durante o regime de segregação racial [Apartheid](https://pt.wikipedia.org/wiki/Apartheid) onde despojaram a população nativa negra da sua dignidade, da sua liberdade, da sua cidadania e expondo-os a uma repressão física e sócio-económica violenta.
+
 Durante os meus anos de adolescência, já em Portugal, as notícias que mais me marcaram foram as [primeiras eleições presidenciais democráticas que resultaram na eleição de Nelson Mandela em 1994](https://pt.wikipedia.org/wiki/Governo_Nelson_Mandela),
 a vitória no [Mundial de Râguebi de 1995](https://pt.wikipedia.org/wiki/Copa_do_Mundo_de_Rugby_Union#Copa_do_Mundo_de_Rugby_Africana) pelos [Springboks](https://pt.wikipedia.org/wiki/Sele%C3%A7%C3%A3o_Sul-Africana_de_Rugby_Union) 
 e a vitória dos [Bafana Bafana](https://pt.wikipedia.org/wiki/Sele%C3%A7%C3%A3o_Sul-Africana_de_Futebol) no [Campeonato Africano das Nações de 1996](https://pt.wikipedia.org/wiki/Campeonato_Africano_das_Na%C3%A7%C3%B5es_de_1996).
 
 A procura da minha identidade e do meu lugar no mundo, como um convicto ateu e uma pessoa independente no espetro político, que _hoje_ se revê no [Liberalismo social](https://pt.wikipedia.org/wiki/Liberalismo_social),
-a única obra literária que mais se aproxima de um _"texto sagrado"_ para mim é a autobiografia de Nelson Mandela ["Um Longo Caminho para a Liberdade"](https://www.goodreads.com/book/show/14493660-um-longo-caminho-para-a-liberdade).
+a única obra literária que mais se aproxima de um _"texto sagrado"_ para mim, é a autobiografia de Nelson Mandela ["Um Longo Caminho para a Liberdade"](https://www.goodreads.com/book/show/14493660-um-longo-caminho-para-a-liberdade).
 
 Narra a vida de um ser humano que passou 27 anos na prisão, enfrentando um tratamento brutal, árduo e que ilustra os sacrifícios pessoais que afetaram a sua família em prol da luta pelo movimento.
 
@@ -200,10 +198,12 @@ O próprio Mandela reconheceu momentos de ambiguidade moral e conflito enquanto 
   
 Nelson Mandela quando tomou o poder, batizou a África do Sul como a Nação Arco-Íris, um termo cunhado por outro vencedor do Prémio Nobel da Paz, pelo [Arcebispo Desmund Tutu](https://pt.wikipedia.org/wiki/Desmond_Tutu) para ilustrar as diferentes culturas, línguas e etnias da nova República. 
 
-A seleção Sul-Africana de Râguebi, apelidada de Springboks, era até então um símbolo da população branca na África do Sul foi utilizada hábilmente pelo Governo de Nelson Mandela para 
+A seleção Sul-Africana de Râguebi, apelidada de Springboks, era até então um símbolo da população branca, foi utilizada hábilmente pelo Governo de Nelson Mandela para 
 criar uma ponte de paz e integração entre a comunidade branca e negra.
-Após décadas de isolamento desportivo, para a história ficaria um dos momentos, quiçá o maior momento do desporto Oval, a consagração da África do Sul como campeã Mundial em 1995 contra os eternos rivais da [Nova Zelândia, os All Blacks](https://pt.wikipedia.org/wiki/Sele%C3%A7%C3%A3o_Neozelandesa_de_Rugby_Union)
+
+Após décadas de isolamento desportivo, para a história ficaria um dos momentos, quiçá o maior momento do desporto Oval, a consagração da África do Sul como campeã Mundial em 1995 contra os eternos rivais da [Nova Zelândia, os All Blacks](https://pt.wikipedia.org/wiki/Sele%C3%A7%C3%A3o_Neozelandesa_de_Rugby_Union), 
 com Nelson Mandela a subir ao relvado em Ellis Park vestindo o equipamento sul-africano para demonstrar o seu apoio incondicional aos Springboks, sob o slogan ["Uma equipa. Uma nação."](https://www.linkedin.com/pulse/one-team-country-leadership-code-mandela-pienaar-%C3%A6delhard-g6nrc/).
+
 Um slogan que ao contrário dos de André Ventura, procurou unir uma nação dividida pela cor da pele, pela língua, pela cultura e pelo desporto. 
 
 ##### _One team. One Nation._ 
@@ -212,11 +212,11 @@ Um slogan que ao contrário dos de André Ventura, procurou unir uma nação div
 
 <br>
 
-Num [discurso icónico](https://www.youtube.com/watch?v=y1-7w-bJCtY) para os [Prémios Laureus](https://pt.wikipedia.org/wiki/Pr%C3%AAmio_Laureus_do_Esporte_Mundial), Mandela enfatizou o impacto do desporto na sociedade:
+<br>
 
-> _"O desporto tem o poder de mudar o mundo. Tem o poder de inspirar, tem o poder de unir as pessoas como poucas coisas conseguem. Fala com os jovens numa linguagem que eles compreendem. O desporto pode criar esperança onde antes só havia desespero. Ele é mais poderoso do que os governos para derrubar barreiras raciais."_
+---
 
-### O Papel do Presidente da República
+## O Papel do Presidente da República
 
 
 Como tal, é com esta bagagem emocional que irei viajar para Manchester, para votar não apenas numa figura protocolar, mas para eleger alguém
@@ -224,6 +224,14 @@ que seja o garante da Constituição, o moderador das instituições democrátic
 
 Num contexto (nacional e internacional) de crescente polarização política e social, o Presidente deve representar todos os portugueses e cidadãos imigrantes que impulsionam a economia Portuguesa e que identificam Portugal como _a sua casa_, independentemente das suas etnias e convicções políticas, religiosas ou ideológicas.
 
-Por isso no dia 8 de Fevereiro, no meu voto está Seguro.
+Por Martin Niemöller, por Nelson Mandela, pelos Capitães de Abril, pela defesa dos valores e princípios de liberdade, democracia e dignidade humana, no dia 8 de Fevereiro, no meu voto está Seguro.
+
+---
+
+<br>
+
+### Coda Musical
+
+{{< youtube wEBlaMOmKV4 >}}
 
 
