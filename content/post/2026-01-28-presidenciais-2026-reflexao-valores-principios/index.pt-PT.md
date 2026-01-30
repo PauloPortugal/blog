@@ -224,16 +224,19 @@ que seja o garante da Constituição, o moderador das instituições democrátic
 
 Num contexto (nacional e internacional) de crescente polarização política e social, o Presidente deve representar todos os portugueses e cidadãos imigrantes que impulsionam a economia Portuguesa e que identificam Portugal como _a sua casa_, independentemente das suas etnias e convicções políticas, religiosas ou ideológicas.
 
-Por Martin Niemöller, por Nelson Mandela, pelos Capitães de Abril, pela defesa dos valores e princípios de liberdade, 
+Por Martin Niemöller, por Nelson Mandela, pelos Capitães de Abril, pela defesa dos valores e princípios de liberdade,
 democracia e dignidade humana, no dia 8 de Fevereiro, o meu voto será no António José Seguro.
 
-
+<figure>
+  <img src="seguro.jpg" alt="António José Seguro" />
+  <figcaption><small>António José Seguro</small></figcaption>
+</figure>
 
 ---
 
 <br>
 
-### Coda Musical
+## Coda Musical
 
 {{< youtube wEBlaMOmKV4 >}}
 
