@@ -3,7 +3,7 @@ title: "Presidenciais 2026: uma reflexão sobre valores e princípios"
 date: 2026-01-28 01:30:00 +0000
 draft: false
 description: >-
-  Uma reflexão sobre os valores e princípios que orientam a minha escolha nas eleições presidenciais portuguesas de 2026.
+  Uma reflexão sobre os valores e princípios que orientam a minha escolha na segunda volta das eleições presidenciais portuguesas de 2026.
 categories:
   - Política
   - Sociedade
@@ -17,7 +17,7 @@ pin: false
 translationKey: "presidenciais-2026"
 image:
    path: mandela.jpg
-   alt: O primeiro presidente negro democraticamente eleito da África do Sul, Nelson Mandela, revisita a sua cela na Ilha Robben, onde passou dezoito dos seus vinte e sete anos de prisão, em 1994. Foto por Jurgen Schadeberg/Getty Images. 
+   alt: Em 1994, o primeiro presidente negro democraticamente eleito da África do Sul, Nelson Mandela, revisita a sua cela na Ilha Robben, onde passou dezoito dos seus vinte e sete anos de prisão. Foto por Jurgen Schadeberg/Getty Images. 
 ---
 
 No dia 8 de Fevereiro, irei deslocar-me a Manchester para votar na segunda volta das Presidenciais de 2026.
@@ -137,8 +137,8 @@ Eu estudei desde os meus 9 anos no Porto e conheci em primeira mão a violência
 Atualmente, sempre que estou em Portugal visito o Porto com a minha família, muitas vezes usando os transportes públicos e o Porto está incomparavelmente seguro quando comparado com os anos 90 e a década de 2000.
 Hoje é possível andar na Ribeira, Miragaia, Baixa do Porto, Trindade, Bolhão, Matosinhos, Boavista a qualquer hora do dia, sem ter medo de ser assaltado, algo impensável nos anos 90. 
 
-Na verdade a maior violência que existe em Portugal é a doméstica e a manifesta falta de segurança e tolerância nas imediações de um estádio de futebol.
-Infelizmente, aconselho a todos que estejam a ler este artigo de opinião que se sentem num sofá confortável, porque André Ventura e o seu partido, não vêm isso como um problema nacional.
+Na verdade, a maior violência que existe em Portugal é a doméstica e a manifesta falta de segurança e tolerância nas imediações de um estádio de futebol.
+Infelizmente, aconselho a todos que estejam a ler este artigo de opinião que se instalem confortavelmente num sofá, porque André Ventura e o seu partido, não vêm isso como um problema nacional.
 
 O problema é o cheiro a caril no arroz, demasiada canela no pastel de nata, o excesso de [piri-piri](https://pt.wikipedia.org/wiki/Pimenta-malagueta) no frango,
 o leite de coco no café, o café [arabica](https://pt.wikipedia.org/wiki/Coffea_arabica) demasiado torrado, para não falar em panquecas de mandioca, enquanto se tolera a picanha e o sushi.
@@ -153,7 +153,7 @@ Por isso, as minhas únicas recomendações para o candidato Ventura seriam volt
 ### Os benefícios da Imigração 
 
 É por isso essencial reconhecer os benefícios substanciais das diversas comunidades imigrantes, sem desvalorizar que a rápida
-gentrificação de uma comunidade trará sempre alguma fricção, mas o foco deve ser em políticas de inclusão e de integração e nos aspetos positivos e não procurar divisões a semear o ódio e o medo pelo outro.
+gentrificação de uma comunidade trará sempre alguma fricção, mas o foco deve ser em políticas de inclusão, de integração, atendendo aos aspetos positivos e não procurar divisões a semear o ódio e o medo pelo outro.
 
 Os imigrantes contribuem significativamente para a economia portuguesa, suprindo a escassez de mão-de-obra e sustentando o estado social, inclusivamente o Sistema Nacional de Saúde.
 Os trabalhadores estrangeiros representam uma parte vital da força de trabalho formal, [contribuindo com 3.6 mil milhões de euros para a segurança social, enquanto recebem apenas 688 milhões de euros em prestações](https://sapo.pt/artigo/a-imigracao-e-a-matematica-simples-da-seguranca-social-68f6a23ba73deb9eaabae466).
@@ -168,8 +168,8 @@ e **Londres** com os bairros de [Brick Lane](https://en.wikipedia.org/wiki/Brick
 Duas cidades que sofreram atentados terroristas por fundamentalistas islâmicos na década de 2000, são hoje governadas por Mayors muçulmanos: [Sir Sadiq Khan](https://en.wikipedia.org/wiki/Sadiq_Khan) em Londres e mais recentemente [Zohran Mamdani](https://pt.wikipedia.org/wiki/Zohran_Mamdani) em Nova-Iorque.
 Inclusivamente, em Londres há já alguns anos que se [celebra o Ramadão](https://londonist.com/london/things-to-do/ramadan-eid-events) e a celebração festiva [Eid](https://pt.wikipedia.org/wiki/Eid_al-Fitr). 
 
-A cidade berço do [Punk e Anarquia nos anos 70](https://www.museumofyouthculture.com/punk/), [Iron Maiden](https://pt.wikipedia.org/wiki/Iron_Maiden),
-[Led Zeppelin](https://pt.wikipedia.org/wiki/Led_Zeppelin), [The Police](https://pt.wikipedia.org/wiki/The_Police) e os [Queen](https://pt.wikipedia.org/wiki/Queen), demonstra na atualidade porque continua a ser um dos bastiões e um exemplo de integração social. 
+A cidade berço do [Punk e do movimento anárquico nos anos 70](https://www.museumofyouthculture.com/punk/), [Iron Maiden](https://pt.wikipedia.org/wiki/Iron_Maiden),
+[Led Zeppelin](https://pt.wikipedia.org/wiki/Led_Zeppelin), [The Police](https://pt.wikipedia.org/wiki/The_Police) e os [Queen](https://pt.wikipedia.org/wiki/Queen), demonstra na atualidade porque continua a ser um exemplo de integração social. 
 
 
 ### A minha referência como presidente
@@ -184,7 +184,7 @@ a vitória no [Mundial de Râguebi de 1995](https://pt.wikipedia.org/wiki/Copa_d
 e a vitória dos [Bafana Bafana](https://pt.wikipedia.org/wiki/Sele%C3%A7%C3%A3o_Sul-Africana_de_Futebol) no [Campeonato Africano das Nações de 1996](https://pt.wikipedia.org/wiki/Campeonato_Africano_das_Na%C3%A7%C3%B5es_de_1996).
 
 A procura da minha identidade e do meu lugar no mundo, como um convicto ateu e uma pessoa independente no espetro político, que _hoje_ se revê no [Liberalismo social](https://pt.wikipedia.org/wiki/Liberalismo_social),
-a única obra literária que mais se aproxima de um _"texto sagrado"_ para mim, é a autobiografia de Nelson Mandela ["Um Longo Caminho para a Liberdade"](https://www.goodreads.com/book/show/14493660-um-longo-caminho-para-a-liberdade).
+a única obra literária que mais posso aproximar de um _"texto sagrado"_ para mim, é a autobiografia de Nelson Mandela ["Um Longo Caminho para a Liberdade"](https://www.goodreads.com/book/show/14493660-um-longo-caminho-para-a-liberdade).
 
 Narra a vida de um ser humano que passou 27 anos na prisão, enfrentando um tratamento brutal, árduo e que ilustra os sacrifícios pessoais que afetaram a sua família em prol da luta pelo movimento.
 
@@ -224,7 +224,10 @@ que seja o garante da Constituição, o moderador das instituições democrátic
 
 Num contexto (nacional e internacional) de crescente polarização política e social, o Presidente deve representar todos os portugueses e cidadãos imigrantes que impulsionam a economia Portuguesa e que identificam Portugal como _a sua casa_, independentemente das suas etnias e convicções políticas, religiosas ou ideológicas.
 
-Por Martin Niemöller, por Nelson Mandela, pelos Capitães de Abril, pela defesa dos valores e princípios de liberdade, democracia e dignidade humana, no dia 8 de Fevereiro, no meu voto está Seguro.
+Por Martin Niemöller, por Nelson Mandela, pelos Capitães de Abril, pela defesa dos valores e princípios de liberdade, 
+democracia e dignidade humana, no dia 8 de Fevereiro, o meu voto será no António José Seguro.
+
+
 
 ---
 
