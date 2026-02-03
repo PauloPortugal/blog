@@ -228,7 +228,7 @@ Por Martin Niemöller, por Nelson Mandela, pelos Capitães de Abril, pela defesa
 democracia e dignidade humana, no dia 8 de Fevereiro, o meu voto será no António José Seguro.
 
 <figure>
-  <img src="seguro.jpg" alt="António José Seguro" />
+  <img src="/post/2026-01-28-presidenciais-2026-reflexao-valores-principios/seguro.jpg" alt="António José Seguro" />
   <figcaption><small>António José Seguro</small></figcaption>
 </figure>
 
