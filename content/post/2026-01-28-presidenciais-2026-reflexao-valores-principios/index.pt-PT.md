@@ -17,7 +17,7 @@ pin: false
 translationKey: "presidenciais-2026"
 image:
    path: mandela.jpg
-   alt: Em 1994, o primeiro presidente negro democraticamente eleito da África do Sul, Nelson Mandela, revisita a sua cela na Ilha Robben, onde passou dezoito dos seus vinte e sete anos de prisão. Foto por Jurgen Schadeberg/Getty Images. 
+   alt: Em 1994, o primeiro presidente negro democraticamente eleito da África do Sul, Nelson Mandela, revisita a sua cela na Ilha Robben, onde passou dezoito dos seus vinte e sete anos de prisão. Foto por Jurgen Schadeberg/Getty Images.
 ---
 
 No dia 8 de Fevereiro, irei deslocar-me a Manchester para votar na segunda volta das Presidenciais de 2026.

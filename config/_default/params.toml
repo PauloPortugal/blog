@@ -13,14 +13,19 @@ author = "Paulo Monteiro"
   url = "https://github.com/pauloportugal"
 
 [[social.links]]
+  type = "rss"
+  icon = "fas fa-rss"
+  noblank = true  # will not open in new window
+
+[[social.links]]
   type = "github"
   id = "pauloportugal"
   icon = "fab fa-github"
 
 [[social.links]]
-  type = "twitter"
-  id = "paulomonteiro82"
-  icon = "fab fa-twitter"
+  type = "substack"
+  url = "https://substack.com/@2plus2is5/"
+  icon = "fab fa-substack"
 
 [[social.links]]
   type = "bluesky"
@@ -29,9 +34,9 @@ author = "Paulo Monteiro"
   icon = "fab fa-bluesky"
 
 [[social.links]]
-  type = "rss"
-  icon = "fas fa-rss"
-  noblank = true  # will not open in new window
+  type = "twitter"
+  id = "paulomonteiro82"
+  icon = "fab fa-twitter"
 
 [comments]
 # Global switch for the post-comment system. [true | false]
