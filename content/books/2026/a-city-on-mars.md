@@ -16,7 +16,7 @@ rating: 8
 layout: book-review
 ---
 
-The Weinersmiths — Kelly, a biologist, and Zach, a [cartoonist]{https://www.smbc-comics.com/} — spent years researching 
+The Weinersmiths — Kelly, a biologist, and Zach, a [cartoonist](https://www.smbc-comics.com/) — spent years researching 
 the science, biology, reproduction, ecologty, law, geopolitics, sociology and economics of space settlement, only to find themselves deeply sceptical of the enterprise.
 
 From the physiological effects of long-duration spaceflight, the lack of reproductive biology research in space, 
