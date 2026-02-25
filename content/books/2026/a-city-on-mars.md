@@ -31,4 +31,4 @@ Quite interestingly, a few days ago Elon Musk shifted SpaceX's goal from its Mar
 
 Funny, meticulously researched, and a necessary counterweight to Silicon Valley's space romanticism.
 
-Winner of the [Royal Society Trivedi, Science Book Prize 2024]{https://www.royalsociety.org/medals-and-prizes/science-book-prize/books/2024/a-city-on-mars/}.
+Winner of the [Royal Society Trivedi, Science Book Prize 2024](https://www.royalsociety.org/medals-and-prizes/science-book-prize/books/2024/a-city-on-mars/).

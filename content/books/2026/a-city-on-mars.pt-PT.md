@@ -34,4 +34,4 @@ Curiosamente, há poucos dias Elon Musk alterou o objetivo da SpaceX da ter uma 
 
 Divertido, meticulosamente investigado e um contrapeso necessário ao romantismo espacial do Vale do Silício.
 
-Vendedor do [Royal Society Trivedi, Science Book Prize 2024]{https://www.royalsociety.org/medals-and-prizes/science-book-prize/books/2024/a-city-on-mars/}.
+Vendedor do [Royal Society Trivedi, Science Book Prize 2024](https://www.royalsociety.org/medals-and-prizes/science-book-prize/books/2024/a-city-on-mars/)
