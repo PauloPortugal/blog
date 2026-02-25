@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI Tools on Paulo Monteiro</title><link>https://pauloportugal.github.io/categories/ai-tools/</link><description>Recent content in AI Tools on Paulo Monteiro</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 17 Dec 2025 10:00:00 +0000</lastBuildDate><atom:link href="https://pauloportugal.github.io/categories/ai-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Code - Model Configuration</title><link>https://pauloportugal.github.io/post/2025-12-17-claude-code-5-model-configuration/</link><pubDate>Wed, 17 Dec 2025 10:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/post/2025-12-17-claude-code-5-model-configuration/</guid><description>&lt;p&gt;In the &lt;a href="https://pauloportugal.github.io/post/2025-12-14-claude-code-tools-permissions/"&gt;previous chapter&lt;/a&gt;, we explored Claude Code&amp;rsquo;s built-in tools and permission system. Now let&amp;rsquo;s learn how to configure which AI model Claude Code uses for different tasks.&lt;/p&gt;
+&lt;h2 id="model-aliases" id=model-aliases&gt;
+ 
+ &lt;span class="me-2"&gt;Model Aliases&lt;/span&gt;
+ &lt;a href="#model-aliases" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;Claude Code provides convenient aliases that automatically map to the latest model versions:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Alias&lt;/th&gt;
+ &lt;th&gt;Current Model&lt;/th&gt;
+ &lt;th&gt;Use Case&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;&lt;code&gt;default&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Recommended for your account type&lt;/td&gt;
+ &lt;td&gt;Automatic best choice based on account&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;&lt;code&gt;sonnet&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Sonnet 4.5&lt;/td&gt;
+ &lt;td&gt;Daily coding tasks, balanced performance&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;&lt;code&gt;opus&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Opus 4.5&lt;/td&gt;
+ &lt;td&gt;Complex reasoning, architectural decisions&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;&lt;code&gt;haiku&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Haiku (latest)&lt;/td&gt;
+ &lt;td&gt;Fast, simple tasks, background operations&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;&lt;code&gt;sonnet[1m]&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Sonnet with 1M token context&lt;/td&gt;
+ &lt;td&gt;Long sessions, large codebases&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;&lt;code&gt;opusplan&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Opus (plan) → Sonnet (execution)&lt;/td&gt;
+ &lt;td&gt;Hybrid: complex planning, efficient execution&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Using aliases ensures you automatically get the latest model versions without updating configuration.&lt;/p&gt;</description></item><item><title>Claude Code - Tools and Permissions</title><link>https://pauloportugal.github.io/post/2025-12-14-claude-code-4-tools-permissions/</link><pubDate>Sun, 14 Dec 2025 10:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/post/2025-12-14-claude-code-4-tools-permissions/</guid><description>&lt;p&gt;In the &lt;a href="https://pauloportugal.github.io/post/2025-12-16-claude-code-context-management/"&gt;previous chapter&lt;/a&gt;, we learned how to manage context effectively by adding files, images, and using commands like &lt;code&gt;/clear&lt;/code&gt; and &lt;code&gt;/compact&lt;/code&gt;. Now let&amp;rsquo;s explore the built-in tools Claude Code uses to perform actions and how to manage permissions for those tools.&lt;/p&gt;
+&lt;h2 id="how-claude-code-uses-tools" id=how-claude-code-uses-tools&gt;
+ 
+ &lt;span class="me-2"&gt;How Claude Code Uses Tools&lt;/span&gt;
+ &lt;a href="#how-claude-code-uses-tools" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;When you ask Claude Code to do something, it automatically selects the appropriate built-in tool:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Read&lt;/strong&gt; - View file contents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit&lt;/strong&gt; - Modify existing files&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write&lt;/strong&gt; - Create new files&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bash&lt;/strong&gt; - Execute shell commands&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Glob&lt;/strong&gt; - Find files by pattern&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grep&lt;/strong&gt; - Search file contents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task&lt;/strong&gt; - Launch specialized agents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TodoWrite&lt;/strong&gt; - Create task checklists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You don&amp;rsquo;t need to specify which tool to use—Claude Code determines this based on your instructions.&lt;/p&gt;</description></item><item><title>Claude Code - Managing Context for Better Results</title><link>https://pauloportugal.github.io/post/2025-12-12-claude-code-3-context-management/</link><pubDate>Fri, 12 Dec 2025 11:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/post/2025-12-12-claude-code-3-context-management/</guid><description>&lt;p&gt;In the &lt;a href="https://pauloportugal.github.io/post/2025-12-12-claude-code-memory-claude-md/"&gt;previous chapter&lt;/a&gt;, we learned how to use the &lt;code&gt;/init&lt;/code&gt; command to create a &lt;code&gt;CLAUDE.md&lt;/code&gt; file that gives Claude Code project-wide context. Now let&amp;rsquo;s explore how to provide specific context for individual tasks and manage context effectively to avoid bloat.&lt;/p&gt;
+&lt;h2 id="what-is-context" id=what-is-context&gt;
+ 
+ &lt;span class="me-2"&gt;What is Context?&lt;/span&gt;
+ &lt;a href="#what-is-context" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;Context is additional relevant information that helps AI models provide more accurate responses. Just like in human conversations, saying &amp;ldquo;fix the link&amp;rdquo; without context is vague, but saying &amp;ldquo;fix the broken link in the navigation component&amp;rdquo; gives clear direction.&lt;/p&gt;</description></item><item><title>Claude Code - Project Memory with CLAUDE.md</title><link>https://pauloportugal.github.io/post/2025-12-12-claude-code-2-memory-claude-md/</link><pubDate>Fri, 12 Dec 2025 10:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/post/2025-12-12-claude-code-2-memory-claude-md/</guid><description>&lt;p&gt;In the &lt;a href="https://pauloportugal.github.io/post/2025-12-12-claude-code-introduction-setup/"&gt;previous chapter&lt;/a&gt;, we covered what Claude Code is and how to get started. We walked through installation, first-time setup and best practices for working with Claude Code. Now that we have Claude Code up and running, it&amp;rsquo;s time to give it proper context about
+your project.&lt;/p&gt;
+&lt;h2 id="why-use-claudemd" id=why-use-claudemd&gt;
+ 
+ &lt;span class="me-2"&gt;Why Use CLAUDE.md?&lt;/span&gt;
+ &lt;a href="#why-use-claudemd" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;Before making any code changes with Claude Code, you should initialize a &lt;code&gt;CLAUDE.md&lt;/code&gt; file in your project root. This file acts as mini-documentation that Claude uses as context when making decisions about your code, leading to much better code generation that follows your project&amp;rsquo;s patterns.&lt;/p&gt;</description></item><item><title>Claude Code - Introduction &amp; Setup for Linux</title><link>https://pauloportugal.github.io/post/2025-12-12-claude-code-1-introduction-setup/</link><pubDate>Fri, 12 Dec 2025 09:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/post/2025-12-12-claude-code-1-introduction-setup/</guid><description>&lt;h2 id="what-is-claude-code" id=what-is-claude-code&gt;
+ 
+ &lt;span class="me-2"&gt;What is Claude Code?&lt;/span&gt;
+ &lt;a href="#what-is-claude-code" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;&lt;a href="https://claude.com/product/claude-code"&gt;Claude Code&lt;/a&gt; is an AI-powered agentic coding tool created by Anthropic that
+helps you analyze, plan, write, and edit code within your projects. Unlike other AI coding tools like Copilot or Cursor
+that come with embedded UIs in code editors, Claude Code lives directly in the terminal, allowing seamless integration
+with your existing development workflow without forcing you to switch IDEs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

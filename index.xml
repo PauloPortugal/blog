@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Paulo Monteiro</title><link>https://pauloportugal.github.io/</link><description>Recent content on Paulo Monteiro</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 23 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://pauloportugal.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>A City on Mars: Can We Settle Space, Should We Settle Space, and Have We Really Thought This Through?</title><link>https://pauloportugal.github.io/books/2026/a-city-on-mars/</link><pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/books/2026/a-city-on-mars/</guid><description>&lt;p&gt;The Weinersmiths — Kelly, a biologist, and Zach, a &lt;a href="https://www.smbc-comics.com/"&gt;cartoonist&lt;/a&gt; — spent years researching
+the science, biology, reproduction, ecologty, law, geopolitics, sociology and economics of space settlement, only to find themselves deeply sceptical of the enterprise.&lt;/p&gt;
+&lt;p&gt;From the physiological effects of long-duration spaceflight, the lack of reproductive biology research in space,
+the legal vacuum that governs off-Earth territory, covering existing treaties on Earth and analysing self-determination, territorial integrity
+and the geopolitical issues that permanent settlements would have to overcome.&lt;/p&gt;</description></item><item><title>Portuguese Presidential Elections 2026: A Reflection on Values and Principles</title><link>https://pauloportugal.github.io/post/2026-01-28-presidenciais-2026-reflexao-valores-principios/</link><pubDate>Wed, 28 Jan 2026 01:30:00 +0000</pubDate><guid>https://pauloportugal.github.io/post/2026-01-28-presidenciais-2026-reflexao-valores-principios/</guid><description>&lt;p&gt;This post is only available in Portuguese. &lt;a href="https://pauloportugal.github.io/pt-pt/post/2026-01-28-presidenciais-2026-reflexao-valores-principios/"&gt;Read in Portuguese&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Claude Code - Model Configuration</title><link>https://pauloportugal.github.io/post/2025-12-17-claude-code-5-model-configuration/</link><pubDate>Wed, 17 Dec 2025 10:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/post/2025-12-17-claude-code-5-model-configuration/</guid><description>&lt;p&gt;In the &lt;a href="https://pauloportugal.github.io/post/2025-12-14-claude-code-tools-permissions/"&gt;previous chapter&lt;/a&gt;, we explored Claude Code&amp;rsquo;s built-in tools and permission system. Now let&amp;rsquo;s learn how to configure which AI model Claude Code uses for different tasks.&lt;/p&gt;
+&lt;h2 id="model-aliases" id=model-aliases&gt;
+ 
+ &lt;span class="me-2"&gt;Model Aliases&lt;/span&gt;
+ &lt;a href="#model-aliases" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;Claude Code provides convenient aliases that automatically map to the latest model versions:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Alias&lt;/th&gt;
+ &lt;th&gt;Current Model&lt;/th&gt;
+ &lt;th&gt;Use Case&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;&lt;code&gt;default&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Recommended for your account type&lt;/td&gt;
+ &lt;td&gt;Automatic best choice based on account&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;&lt;code&gt;sonnet&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Sonnet 4.5&lt;/td&gt;
+ &lt;td&gt;Daily coding tasks, balanced performance&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;&lt;code&gt;opus&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Opus 4.5&lt;/td&gt;
+ &lt;td&gt;Complex reasoning, architectural decisions&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;&lt;code&gt;haiku&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Haiku (latest)&lt;/td&gt;
+ &lt;td&gt;Fast, simple tasks, background operations&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;&lt;code&gt;sonnet[1m]&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Sonnet with 1M token context&lt;/td&gt;
+ &lt;td&gt;Long sessions, large codebases&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;&lt;code&gt;opusplan&lt;/code&gt;&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Opus (plan) → Sonnet (execution)&lt;/td&gt;
+ &lt;td&gt;Hybrid: complex planning, efficient execution&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Using aliases ensures you automatically get the latest model versions without updating configuration.&lt;/p&gt;</description></item><item><title>Claude Code - Tools and Permissions</title><link>https://pauloportugal.github.io/post/2025-12-14-claude-code-4-tools-permissions/</link><pubDate>Sun, 14 Dec 2025 10:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/post/2025-12-14-claude-code-4-tools-permissions/</guid><description>&lt;p&gt;In the &lt;a href="https://pauloportugal.github.io/post/2025-12-16-claude-code-context-management/"&gt;previous chapter&lt;/a&gt;, we learned how to manage context effectively by adding files, images, and using commands like &lt;code&gt;/clear&lt;/code&gt; and &lt;code&gt;/compact&lt;/code&gt;. Now let&amp;rsquo;s explore the built-in tools Claude Code uses to perform actions and how to manage permissions for those tools.&lt;/p&gt;
+&lt;h2 id="how-claude-code-uses-tools" id=how-claude-code-uses-tools&gt;
+ 
+ &lt;span class="me-2"&gt;How Claude Code Uses Tools&lt;/span&gt;
+ &lt;a href="#how-claude-code-uses-tools" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;When you ask Claude Code to do something, it automatically selects the appropriate built-in tool:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Read&lt;/strong&gt; - View file contents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit&lt;/strong&gt; - Modify existing files&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write&lt;/strong&gt; - Create new files&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bash&lt;/strong&gt; - Execute shell commands&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Glob&lt;/strong&gt; - Find files by pattern&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grep&lt;/strong&gt; - Search file contents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task&lt;/strong&gt; - Launch specialized agents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TodoWrite&lt;/strong&gt; - Create task checklists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You don&amp;rsquo;t need to specify which tool to use—Claude Code determines this based on your instructions.&lt;/p&gt;</description></item><item><title>Claude Code - Managing Context for Better Results</title><link>https://pauloportugal.github.io/post/2025-12-12-claude-code-3-context-management/</link><pubDate>Fri, 12 Dec 2025 11:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/post/2025-12-12-claude-code-3-context-management/</guid><description>&lt;p&gt;In the &lt;a href="https://pauloportugal.github.io/post/2025-12-12-claude-code-memory-claude-md/"&gt;previous chapter&lt;/a&gt;, we learned how to use the &lt;code&gt;/init&lt;/code&gt; command to create a &lt;code&gt;CLAUDE.md&lt;/code&gt; file that gives Claude Code project-wide context. Now let&amp;rsquo;s explore how to provide specific context for individual tasks and manage context effectively to avoid bloat.&lt;/p&gt;
+&lt;h2 id="what-is-context" id=what-is-context&gt;
+ 
+ &lt;span class="me-2"&gt;What is Context?&lt;/span&gt;
+ &lt;a href="#what-is-context" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;Context is additional relevant information that helps AI models provide more accurate responses. Just like in human conversations, saying &amp;ldquo;fix the link&amp;rdquo; without context is vague, but saying &amp;ldquo;fix the broken link in the navigation component&amp;rdquo; gives clear direction.&lt;/p&gt;</description></item><item><title>Claude Code - Project Memory with CLAUDE.md</title><link>https://pauloportugal.github.io/post/2025-12-12-claude-code-2-memory-claude-md/</link><pubDate>Fri, 12 Dec 2025 10:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/post/2025-12-12-claude-code-2-memory-claude-md/</guid><description>&lt;p&gt;In the &lt;a href="https://pauloportugal.github.io/post/2025-12-12-claude-code-introduction-setup/"&gt;previous chapter&lt;/a&gt;, we covered what Claude Code is and how to get started. We walked through installation, first-time setup and best practices for working with Claude Code. Now that we have Claude Code up and running, it&amp;rsquo;s time to give it proper context about
+your project.&lt;/p&gt;
+&lt;h2 id="why-use-claudemd" id=why-use-claudemd&gt;
+ 
+ &lt;span class="me-2"&gt;Why Use CLAUDE.md?&lt;/span&gt;
+ &lt;a href="#why-use-claudemd" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;Before making any code changes with Claude Code, you should initialize a &lt;code&gt;CLAUDE.md&lt;/code&gt; file in your project root. This file acts as mini-documentation that Claude uses as context when making decisions about your code, leading to much better code generation that follows your project&amp;rsquo;s patterns.&lt;/p&gt;</description></item><item><title>Claude Code - Introduction &amp; Setup for Linux</title><link>https://pauloportugal.github.io/post/2025-12-12-claude-code-1-introduction-setup/</link><pubDate>Fri, 12 Dec 2025 09:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/post/2025-12-12-claude-code-1-introduction-setup/</guid><description>&lt;h2 id="what-is-claude-code" id=what-is-claude-code&gt;
+ 
+ &lt;span class="me-2"&gt;What is Claude Code?&lt;/span&gt;
+ &lt;a href="#what-is-claude-code" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;&lt;a href="https://claude.com/product/claude-code"&gt;Claude Code&lt;/a&gt; is an AI-powered agentic coding tool created by Anthropic that
+helps you analyze, plan, write, and edit code within your projects. Unlike other AI coding tools like Copilot or Cursor
+that come with embedded UIs in code editors, Claude Code lives directly in the terminal, allowing seamless integration
+with your existing development workflow without forcing you to switch IDEs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Automating Manjaro Setup with Ansible</title><link>https://pauloportugal.github.io/post/2025-12-11-automating-manjaro-setup-with-ansible/</link><pubDate>Thu, 11 Dec 2025 22:44:55 +0000</pubDate><guid>https://pauloportugal.github.io/post/2025-12-11-automating-manjaro-setup-with-ansible/</guid><description>&lt;h2 id="overview" id=overview&gt;
+ 
+ &lt;span class="me-2"&gt;Overview&lt;/span&gt;
+ &lt;a href="#overview" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;Setting up a fresh Linux installation can be a time-consuming and repetitive process. Every time you install Manjaro (or any Linux distribution), you face the same tedious tasks: installing your favorite applications, configuring your development environment, setting up tools, and tweaking system settings to match your preferences.&lt;/p&gt;
+&lt;p&gt;Enter &lt;a href="https://github.com/PauloPortugal/manjaro-playbook"&gt;Manjaro Playbook&lt;/a&gt; - an Ansible-based automation framework that transforms this multi-hour ordeal into a single command execution. This project represents the &amp;ldquo;infrastructure as code&amp;rdquo; philosophy applied to personal workstation configuration.&lt;/p&gt;</description></item><item><title>Prophet Song</title><link>https://pauloportugal.github.io/books/2025/prophet-song/</link><pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/books/2025/prophet-song/</guid><description>&lt;p&gt;Winner of the 2023 Booker Prize, this dystopian novel follows a Dublin mother trying to save her family as Ireland descends into totalitarianism.&lt;/p&gt;
+&lt;p&gt;There are echos of Orwell&amp;rsquo;s &amp;ldquo;Animal Farm&amp;rdquo; and &amp;ldquo;1984&amp;rdquo; and captures a chilling landscape of political turmoil that resonates
+deeply with today&amp;rsquo;s sociopolitical climate, especially in the context of the Trump administration&amp;rsquo;s second term and recent events in Minnesota.&lt;/p&gt;
+&lt;p&gt;Lynch&amp;rsquo;s stylistic writing has no paragraph breaks and dialogue without quotation marks which reminded me of the Portuguese Nobel Prize winner José Saramago.&lt;/p&gt;</description></item><item><title>Ducks: Two Years in the Oil Sands</title><link>https://pauloportugal.github.io/books/2025/ducks/</link><pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/books/2025/ducks/</guid><description>&lt;p&gt;An autobiographical graphic novel, in the style of Guy Delisle, about Beaton&amp;rsquo;s time working in Alberta&amp;rsquo;s (Canada) oil sands to pay off student debt.
+This is a book about sexual harassment and misogyny. About women working in a men&amp;rsquo;s world.&lt;/p&gt;
+&lt;p&gt;A MUST read for all, especially men.&lt;/p&gt;
+&lt;p&gt;Named after a disaster where hundreds of ducks died in toxic tailings ponds, &amp;ldquo;the book draws devastating parallels between environmental and human degradation&amp;rdquo;.&lt;/p&gt;</description></item><item><title>Pyongyang: A Journey in North Korea</title><link>https://pauloportugal.github.io/books/2025/pyongyang/</link><pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/books/2025/pyongyang/</guid><description>&lt;p&gt;Recommended my a dear (Canadian) friend of mine, this is a graphic novel documenting the author&amp;rsquo;s, Guy Delisle. two months in Pyongyang while working for a French animation company.&lt;/p&gt;
+&lt;p&gt;I decided to order a second hand copy after seeing the asking price between £2-£3, reading it for the second time.&lt;/p&gt;
+&lt;p&gt;Delisle is a master of capturing the surreal interaction with it&amp;rsquo;s North Korean citizens in addition to its bureaucracy, propaganda, and tightly controlled reality through humour and sarcasm.
+A rare snapshot into the world&amp;rsquo;s most isolated nation.&lt;/p&gt;</description></item><item><title>Sapiens: A Brief History of Humankind</title><link>https://pauloportugal.github.io/books/2025/sapiens/</link><pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/books/2025/sapiens/</guid><description>&lt;p&gt;This ia a groundbreaking narrative of humanity&amp;rsquo;s creation and evolution that became a global phenomenon.&lt;/p&gt;
+&lt;p&gt;Harari argues that Homo Sapiens&amp;rsquo; rise to dominance stemmed from our ability to create fictional constructs and how they shape human societies, focusing on three key elements: religion, nations, and money.&lt;/p&gt;
+&lt;p&gt;His provocative claim that the Agricultural Revolution, the transition from Foraging to Farming, was for a brief time a painful hurdle our conventional thinking.
+He also emphasizes the critical role of storytelling and sharing narratives in the evolution of our species.&lt;/p&gt;</description></item><item><title>Orbital</title><link>https://pauloportugal.github.io/books/2025/orbital/</link><pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/books/2025/orbital/</guid><description>&lt;p&gt;Winner of the 2024 Booker Prize, this novel follows six astronauts over 24 hours on the International Space Station, over 16 orbits, which centres on the evolving devastating storm in the Philippines focusing on the relationships of the Austronaurs and Cosmonauts aboard the ISS and of their family on Earth.&lt;/p&gt;
+&lt;p&gt;With just over 120 pages, suggesting the novel can be read rather quickly, in fact requires a careful consideration, making it a profound meditative experience, highlighting just how fragile our planet and our human connections are.&lt;/p&gt;</description></item><item><title>Until the End of Time</title><link>https://pauloportugal.github.io/books/2025/until-the-end-of-time/</link><pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/books/2025/until-the-end-of-time/</guid><description>&lt;p&gt;Full disclosure: I am a Brian Greene fan. Additional disclosure: I am a passionate about space, astronomy and physics.&lt;/p&gt;
+&lt;p&gt;Brian Greene employs the Empire State Building as a vivid metaphor to illustrate the passage of time and the potential evolution of the universe.&lt;/p&gt;
+&lt;p&gt;As we reach the pinnacle of the building, it reflects the ultimate fate of the universe, whether it be entropy, collapse, or rebirth, challenging readers to consider humanity&amp;rsquo;s place (or the absence of it) in these future scenarios.&lt;/p&gt;</description></item><item><title>The Gospel According to Jesus Christ</title><link>https://pauloportugal.github.io/books/2024/o-evangelho-segundo-jesus-cristo/</link><pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/books/2024/o-evangelho-segundo-jesus-cristo/</guid><description>&lt;p&gt;Published in 1991, this is one of Saramago&amp;rsquo;s masterpieces – written in his characteristic style (no paragraph breaks, dialogue without quotation marks), the work is a profoundly philosophical and provocative reimagining of the life of Christ, portraying Jesus as a humanized and imperfect character with passions and doubts.&lt;/p&gt;
+&lt;p&gt;The novel delves into profound theological questions: the problem of evil, the nature of a God portrayed as power-hungry and indifferent to human suffering.&lt;/p&gt;</description></item><item><title>D. Manuel II</title><link>https://pauloportugal.github.io/books/2024/d-manuel-ii/</link><pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/books/2024/d-manuel-ii/</guid><description>&lt;p&gt;Winner of the 2022 Grémio Literário Prize, this biography explores the life of the last king of Portugal, D. Manuel II, whose reign was marked by tragedy from its very beginning.&lt;/p&gt;
+&lt;p&gt;At the age of 18, motivated by the regicide, he was thrust onto the throne during one of Portugal&amp;rsquo;s most turbulent periods, reigning for only two years before the republic was proclaimed in 1910.&lt;/p&gt;
+&lt;p&gt;The biography illuminates not only Manuel&amp;rsquo;s personal story, but also the final days of the Portuguese monarchy and the socio-political forces that led to its downfall.&lt;/p&gt;</description></item><item><title>Zero to One: Notes on Startups, or How to Build the Future</title><link>https://pauloportugal.github.io/books/2024/zero-to-one/</link><pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/books/2024/zero-to-one/</guid><description>&lt;p&gt;A modern classic that forces you to sharpen your thinking about startups, business and the future, based on Thiel&amp;rsquo;s legendary CS183 class at Stanford University.&lt;/p&gt;
+&lt;p&gt;The core concept is powerful: progress from &amp;ldquo;zero to one&amp;rdquo; (creating something entirely new) rather than &amp;ldquo;one to n&amp;rdquo; (incremental improvement).&lt;/p&gt;
+&lt;p&gt;Thiel makes the provocative contrarian case for monopoly over competition, arguing that competition kills profits while monopolies can afford to think long-term and innovate.&lt;/p&gt;</description></item><item><title>Voz Própria: Jorge Ginja e Mário Viegas - Poesia, Resistência e Liberdade</title><link>https://pauloportugal.github.io/books/2024/voz-propria/</link><pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/books/2024/voz-propria/</guid><description>&lt;p&gt;&lt;em&gt;&amp;ldquo;Own Voice: Jorge Ginja and Mário Viegas - Poetry, Resistance and Freedom&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A remarkable time capsule containing previously unreleased recordings of the legendary Portuguese actor Mário Viegas, made by Jorge Ginja in 1969 when Viegas was only 21 years old.&lt;/p&gt;
+&lt;p&gt;The recordings were made when Ginja, about to go to war, asked to use Viegas&amp;rsquo; voice to recite poems she wanted to take with her.&lt;/p&gt;
+&lt;p&gt;The book brings together 49 texts by different authors including Alexandre O&amp;rsquo;Neill, José Carlos Ary dos Santos and Manuel Alegre. Each text features a QR code to access Viegas&amp;rsquo; recitations on a mobile phone.&lt;/p&gt;</description></item><item><title>Esteiros</title><link>https://pauloportugal.github.io/books/2024/esteiros/</link><pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/books/2024/esteiros/</guid><description>&lt;p&gt;&amp;ldquo;&lt;em&gt;Estuaries&lt;/em&gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;One of the founding texts of Portuguese neorealism, published in 1941 and censored by the Estado Novo regime, it is a masterpiece of social criticism.&lt;/p&gt;
+&lt;p&gt;The novel tells the harsh story of lower-class boys who, due to their social status, are forced to work in a small brick factory instead of studying.&lt;/p&gt;
+&lt;p&gt;Dedicated to &amp;ldquo;The sons of men who were never children,&amp;rdquo; it is a devastating critique of the social conditions of the Estado Novo era and its numerous inequalities.&lt;/p&gt;</description></item><item><title>Amor Estragado</title><link>https://pauloportugal.github.io/books/2024/amor-estragado/</link><pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/books/2024/amor-estragado/</guid><description>&lt;p&gt;&lt;em&gt;&amp;ldquo;Tainted Love&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A disturbing and necessary novel that explores domestic violence from the chilling perspective of the aggressor who justifies and legitimizes his acts.&lt;/p&gt;
+&lt;p&gt;Two brothers narrate the story of a family&amp;rsquo;s dissolution. Pedrosa&amp;rsquo;s writing is colloquial, simple, and devastatingly direct, hitting like a punch in the stomach.&lt;/p&gt;
+&lt;p&gt;Intense, uncomfortable, and necessary reading that affirms Ana Bárbara Pedrosa as a serious force in contemporary Portuguese literature.&lt;/p&gt;</description></item><item><title>Conquerors: How Portugal Forged the First Global Empire</title><link>https://pauloportugal.github.io/books/2024/conquerors/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/books/2024/conquerors/</guid><description>&lt;p&gt;A gripping chronicle of Portugal&amp;rsquo;s violent trajectory from a secondary nation to European power, dominating the spice trade and building the first global economy.&lt;/p&gt;
+&lt;p&gt;Crowley masterfully narrates the first 30 years of Portuguese seafaring in the Indian Ocean (early 1500s), from Vasco da Gama&amp;rsquo;s discovery of the sea route to India to the death of Afonso de Albuquerque.&lt;/p&gt;
+&lt;p&gt;The book is both a high seas adventure and a nuanced examination of Portuguese bravery, curiosity, cruelty, greed and not shying away from the horrific violence that characterized Portugal&amp;rsquo;s imperial conquest over Muslim rulers.&lt;/p&gt;</description></item><item><title>About</title><link>https://pauloportugal.github.io/about/</link><pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/about/</guid><description>&lt;h2 id="about-me" id=about-me&gt;
+ 
+ &lt;span class="me-2"&gt;About Me&lt;/span&gt;
+ &lt;a href="#about-me" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;I am a software engineer based in Leeds, England&lt;/p&gt;
+&lt;p&gt;I hold an MSc in Big Data and Machine Learning from Birkbeck, University of London, where I specialized in statistical learning, cloud computing, and data warehousing. My coursework included building systems with R, Hadoop MapReduce on AWS, and developing recurrent neural networks for medical image analysis.&lt;/p&gt;
+&lt;p&gt;Lately I am having a blast with Claude Code, experimenting with MCP servers and AI agents, including helping me create and maintain this blog.&lt;/p&gt;</description></item><item><title>Archives</title><link>https://pauloportugal.github.io/archives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/archives/</guid><description/></item></channel></rss>

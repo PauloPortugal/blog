@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automation on Paulo Monteiro</title><link>https://pauloportugal.github.io/tags/automation/</link><description>Recent content in Automation on Paulo Monteiro</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 14 Dec 2025 10:00:00 +0000</lastBuildDate><atom:link href="https://pauloportugal.github.io/tags/automation/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Code - Tools and Permissions</title><link>https://pauloportugal.github.io/post/2025-12-14-claude-code-4-tools-permissions/</link><pubDate>Sun, 14 Dec 2025 10:00:00 +0000</pubDate><guid>https://pauloportugal.github.io/post/2025-12-14-claude-code-4-tools-permissions/</guid><description>&lt;p&gt;In the &lt;a href="https://pauloportugal.github.io/post/2025-12-16-claude-code-context-management/"&gt;previous chapter&lt;/a&gt;, we learned how to manage context effectively by adding files, images, and using commands like &lt;code&gt;/clear&lt;/code&gt; and &lt;code&gt;/compact&lt;/code&gt;. Now let&amp;rsquo;s explore the built-in tools Claude Code uses to perform actions and how to manage permissions for those tools.&lt;/p&gt;
+&lt;h2 id="how-claude-code-uses-tools" id=how-claude-code-uses-tools&gt;
+ 
+ &lt;span class="me-2"&gt;How Claude Code Uses Tools&lt;/span&gt;
+ &lt;a href="#how-claude-code-uses-tools" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;When you ask Claude Code to do something, it automatically selects the appropriate built-in tool:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Read&lt;/strong&gt; - View file contents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit&lt;/strong&gt; - Modify existing files&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write&lt;/strong&gt; - Create new files&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bash&lt;/strong&gt; - Execute shell commands&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Glob&lt;/strong&gt; - Find files by pattern&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Grep&lt;/strong&gt; - Search file contents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task&lt;/strong&gt; - Launch specialized agents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TodoWrite&lt;/strong&gt; - Create task checklists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You don&amp;rsquo;t need to specify which tool to use—Claude Code determines this based on your instructions.&lt;/p&gt;</description></item><item><title>Automating Manjaro Setup with Ansible</title><link>https://pauloportugal.github.io/post/2025-12-11-automating-manjaro-setup-with-ansible/</link><pubDate>Thu, 11 Dec 2025 22:44:55 +0000</pubDate><guid>https://pauloportugal.github.io/post/2025-12-11-automating-manjaro-setup-with-ansible/</guid><description>&lt;h2 id="overview" id=overview&gt;
+ 
+ &lt;span class="me-2"&gt;Overview&lt;/span&gt;
+ &lt;a href="#overview" class="anchor text-muted"&gt;&lt;i class="fas fa-hashtag"&gt;&lt;/i&gt;&lt;/a&gt;
+ 
+&lt;/h2&gt;&lt;p&gt;Setting up a fresh Linux installation can be a time-consuming and repetitive process. Every time you install Manjaro (or any Linux distribution), you face the same tedious tasks: installing your favorite applications, configuring your development environment, setting up tools, and tweaking system settings to match your preferences.&lt;/p&gt;
+&lt;p&gt;Enter &lt;a href="https://github.com/PauloPortugal/manjaro-playbook"&gt;Manjaro Playbook&lt;/a&gt; - an Ansible-based automation framework that transforms this multi-hour ordeal into a single command execution. This project represents the &amp;ldquo;infrastructure as code&amp;rdquo; philosophy applied to personal workstation configuration.&lt;/p&gt;</description></item></channel></rss>
