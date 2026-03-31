@@ -253,6 +253,64 @@ a[href*="substack.com"]:hover .fa-substack::before {
   transform: translateX(-4px);
 }
 
+.back-to-albums {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--link-color);
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.back-to-albums:hover {
+  background: var(--link-hover-color);
+  text-decoration: none;
+  transform: translateX(-4px);
+}
+
+/* Album cover - index card thumbnail */
+.album-cover-thumb {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.album-cover-thumb img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Album cover - review page */
+.album-review-header-inner {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.album-cover-full {
+  flex-shrink: 0;
+  width: 200px;
+}
+
+.album-cover-full img {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .album-review-header-inner {
+    flex-direction: column;
+  }
+
+  .album-cover-full {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .books-grid {
